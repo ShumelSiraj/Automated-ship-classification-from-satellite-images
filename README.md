@@ -27,7 +27,7 @@ Data
 ### Running the Script
 
 Once your project structure is set up, navigate to the "Code" folder and use the following command to run the script:
-
+```bash
 cd Code/
 python3 train.py --model {model-name}
 
