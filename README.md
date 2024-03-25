@@ -29,7 +29,7 @@ Once your project structure is set up, navigate to the "Code" folder and use the
 
 ```bash
 cd Code/
-python3 train.py --model {model-name}
+python3 train.py --model {model-name}```
 
 Replace {model-name} with one of the following options: "VGG16", "VGG19", "Inception", "Resnet", "Xception", or "CNNmodel" based on the model you want to use.
 
