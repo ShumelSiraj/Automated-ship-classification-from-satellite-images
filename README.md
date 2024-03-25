@@ -25,19 +25,21 @@ Data
 
 
 ### Running the Script
+
 Once your project structure is set up, navigate to the "Code" folder and use the following command to run the script:
 
 ```bash
 cd Code/
-python3 train.py --model {model-name}```
+python3 train.py --model {model-name}
+
 
 Replace {model-name} with one of the following options: "VGG16", "VGG19", "Inception", "Resnet", "Xception", or "CNNmodel" based on the model you want to use.
 
 Required Packages
 Make sure your environment has the following packages installed:
-
 - tensorflow == 2.11.0
 - keras == 2.11.0
 - sklearn == 1.2.0
 - cv2 == 4.7.0
 - numpy == 1.24.1
+
